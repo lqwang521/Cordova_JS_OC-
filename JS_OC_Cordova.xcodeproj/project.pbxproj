@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		373306E21DEBB06500365C9A /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3733069C1DEBB06400365C9A /* config.xml */; };
+		3709F1751DED121900270DC7 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3709F1741DED121900270DC7 /* config.xml */; };
+		3709F1771DED141C00270DC7 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 3709F1761DED141C00270DC7 /* www */; };
 		373306E31DEBB06500365C9A /* HTMICDVJSON_private.m in Sources */ = {isa = PBXBuildFile; fileRef = 373306A01DEBB06400365C9A /* HTMICDVJSON_private.m */; };
 		373306E41DEBB06500365C9A /* HTMICDVGestureHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 373306A51DEBB06400365C9A /* HTMICDVGestureHandler.m */; };
 		373306E51DEBB06500365C9A /* HTMICDVHandleOpenURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 373306A81DEBB06400365C9A /* HTMICDVHandleOpenURL.m */; };
@@ -44,7 +45,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3733069C1DEBB06400365C9A /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		3709F1741DED121900270DC7 /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		3709F1761DED141C00270DC7 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 		3733069E1DEBB06400365C9A /* HTMICDVDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMICDVDebug.h; sourceTree = "<group>"; };
 		3733069F1DEBB06400365C9A /* HTMICDVJSON_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMICDVJSON_private.h; sourceTree = "<group>"; };
 		373306A01DEBB06400365C9A /* HTMICDVJSON_private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMICDVJSON_private.m; sourceTree = "<group>"; };
@@ -133,7 +135,6 @@
 		3733069B1DEBB06400365C9A /* CordovaLib */ = {
 			isa = PBXGroup;
 			children = (
-				3733069C1DEBB06400365C9A /* config.xml */,
 				3733069D1DEBB06400365C9A /* Private */,
 				373306B61DEBB06400365C9A /* Public */,
 			);
@@ -272,6 +273,8 @@
 		B95413171D9BB9B600600D09 = {
 			isa = PBXGroup;
 			children = (
+				3709F1761DED141C00270DC7 /* www */,
+				3709F1741DED121900270DC7 /* config.xml */,
 				B95413221D9BB9B600600D09 /* JS_OC_Cordova */,
 				B95413211D9BB9B600600D09 /* Products */,
 			);
@@ -323,6 +326,7 @@
 				B954131C1D9BB9B600600D09 /* Sources */,
 				B954131D1D9BB9B600600D09 /* Frameworks */,
 				B954131E1D9BB9B600600D09 /* Resources */,
+				3709F1781DED175900270DC7 /* Copy www directory */,
 			);
 			buildRules = (
 			);
@@ -372,15 +376,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3709F1771DED141C00270DC7 /* www in Resources */,
 				B95413331D9BB9B600600D09 /* LaunchScreen.storyboard in Resources */,
 				B95413301D9BB9B600600D09 /* Assets.xcassets in Resources */,
 				B954132E1D9BB9B600600D09 /* Main.storyboard in Resources */,
-				373306E21DEBB06500365C9A /* config.xml in Resources */,
 				B95413A01D9CA86400600D09 /* shake_sound_male.wav in Resources */,
+				3709F1751DED121900270DC7 /* config.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3709F1781DED175900270DC7 /* Copy www directory */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy www directory";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "NODEJS_PATH=/usr/local/bin; NVM_NODE_PATH=~/.nvm/versions/node/`nvm version 2>/dev/null`/bin; N_NODE_PATH=`find /usr/local/n/versions/node/* -maxdepth 0 -type d 2>/dev/null | tail -1`/bin; XCODE_NODE_PATH=`xcode-select --print-path`/usr/share/xcs/Node/bin; PATH=$NODEJS_PATH:$NVM_NODE_PATH:$N_NODE_PATH:$XCODE_NODE_PATH:$PATH && node cordova/lib/copy-www-build-step.js";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B954131C1D9BB9B600600D09 /* Sources */ = {

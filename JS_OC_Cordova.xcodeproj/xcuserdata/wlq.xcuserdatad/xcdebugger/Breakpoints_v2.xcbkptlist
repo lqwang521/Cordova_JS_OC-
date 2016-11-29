@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JS_OC_Cordova/ViewController.m"
-            timestampString = "502074919.760669"
+            timestampString = "502077475.498493"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "47"
@@ -42,12 +42,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JS_OC_Cordova/CordovaLib/Public/HTMICDVViewController.m"
-            timestampString = "502074953.775128"
+            timestampString = "502077717.613567"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "207"
-            endingLineNumber = "207"
-            landmarkName = "-appUrl"
+            startingLineNumber = "244"
+            endingLineNumber = "244"
+            landmarkName = "-errorURL"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -58,12 +58,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "JS_OC_Cordova/CordovaLib/Public/HTMICDVViewController.m"
-            timestampString = "502074964.817214"
+            timestampString = "502077726.313256"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "188"
-            endingLineNumber = "188"
-            landmarkName = "-loadSettings"
+            startingLineNumber = "207"
+            endingLineNumber = "207"
+            landmarkName = "-appUrl"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
