@@ -26,8 +26,7 @@
     // 这里空出的20，是为了不显示使用导航控制器时，控制背景色来改变状态栏背景色
     //    self.webView.frame = CGRectMake(0, 20, CGRectGetWidth(self.view.frame), CGRectGetHeight(self.view.frame) - 20);
     
-    UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] initWithTitle:@"测试" style:UIBarButtonItemStylePlain target:self action:@selector(testClick)];
-    self.navigationItem.rightBarButtonItem = rightItem;
+
     
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString *docDir = [paths objectAtIndex:0];
@@ -56,11 +55,7 @@
     
 }
 
-- (void)testClick
-{
-    NSString *jsStr = @"asyncAlert('哈哈啊哈')";
-    [self.commandDelegate evalJs:jsStr];
-}
+
 
 
 @end

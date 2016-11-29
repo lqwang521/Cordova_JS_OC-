@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "HTMICDVViewController.h"
 
-@interface ViewController : HTMICDVViewController
+@interface ViewController : UIViewController
 
 
 @end

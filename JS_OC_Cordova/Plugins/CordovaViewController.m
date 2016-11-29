@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] initWithTitle:@"测试" style:UIBarButtonItemStylePlain target:self action:@selector(testClick)];
+    self.navigationItem.rightBarButtonItem = rightItem;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -33,5 +36,11 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (void)testClick
+{
+    NSString *jsStr = @"asyncAlert('哈哈啊哈')";
+    [self.commandDelegate evalJs:jsStr];
+}
 
 @end
