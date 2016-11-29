@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		373306E21DEBB06500365C9A /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3733069C1DEBB06400365C9A /* config.xml */; };
+		373306E31DEBB06500365C9A /* HTMICDVJSON_private.m in Sources */ = {isa = PBXBuildFile; fileRef = 373306A01DEBB06400365C9A /* HTMICDVJSON_private.m */; };
+		373306E41DEBB06500365C9A /* HTMICDVGestureHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 373306A51DEBB06400365C9A /* HTMICDVGestureHandler.m */; };
+		373306E51DEBB06500365C9A /* HTMICDVHandleOpenURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 373306A81DEBB06400365C9A /* HTMICDVHandleOpenURL.m */; };
+		373306E61DEBB06500365C9A /* HTMICDVIntentAndNavigationFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 373306AB1DEBB06400365C9A /* HTMICDVIntentAndNavigationFilter.m */; };
+		373306E71DEBB06500365C9A /* HTMICDVLocalStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 373306AE1DEBB06400365C9A /* HTMICDVLocalStorage.m */; };
+		373306E81DEBB06500365C9A /* HTMICDVUIWebViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 373306B11DEBB06400365C9A /* HTMICDVUIWebViewDelegate.m */; };
+		373306E91DEBB06500365C9A /* HTMICDVUIWebViewEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 373306B31DEBB06400365C9A /* HTMICDVUIWebViewEngine.m */; };
+		373306EA1DEBB06500365C9A /* HTMICDVUIWebViewNavigationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 373306B51DEBB06400365C9A /* HTMICDVUIWebViewNavigationDelegate.m */; };
+		373306EB1DEBB06500365C9A /* HTMICDVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 373306B81DEBB06400365C9A /* HTMICDVAppDelegate.m */; };
+		373306EC1DEBB06500365C9A /* HTMICDVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 373306BD1DEBB06400365C9A /* HTMICDVViewController.m */; };
+		373306ED1DEBB06500365C9A /* HTMICDVCommandDelegateImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 373306C01DEBB06400365C9A /* HTMICDVCommandDelegateImpl.m */; };
+		373306EE1DEBB06500365C9A /* HTMICDVCommandQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 373306C21DEBB06400365C9A /* HTMICDVCommandQueue.m */; };
+		373306EF1DEBB06500365C9A /* HTMICDVConfigParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 373306C41DEBB06400365C9A /* HTMICDVConfigParser.m */; };
+		373306F01DEBB06500365C9A /* HTMICDVInvokedUrlCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 373306C61DEBB06400365C9A /* HTMICDVInvokedUrlCommand.m */; };
+		373306F11DEBB06500365C9A /* HTMICDVPlugin+Resources.m in Sources */ = {isa = PBXBuildFile; fileRef = 373306C81DEBB06400365C9A /* HTMICDVPlugin+Resources.m */; };
+		373306F21DEBB06500365C9A /* HTMICDVPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 373306CA1DEBB06500365C9A /* HTMICDVPlugin.m */; };
+		373306F31DEBB06500365C9A /* HTMICDVPluginResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 373306CC1DEBB06500365C9A /* HTMICDVPluginResult.m */; };
+		373306F41DEBB06500365C9A /* HTMICDVTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 373306CF1DEBB06500365C9A /* HTMICDVTimer.m */; };
+		373306F51DEBB06500365C9A /* HTMICDVURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 373306D11DEBB06500365C9A /* HTMICDVURLProtocol.m */; };
+		373306F61DEBB06500365C9A /* HTMICDVUserAgentUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 373306D31DEBB06500365C9A /* HTMICDVUserAgentUtil.m */; };
+		373306F71DEBB06500365C9A /* HTMICDVWhitelist.m in Sources */ = {isa = PBXBuildFile; fileRef = 373306D61DEBB06500365C9A /* HTMICDVWhitelist.m */; };
+		373306F81DEBB06500365C9A /* NSDictionary+CordovaPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 373306D81DEBB06500365C9A /* NSDictionary+CordovaPreferences.m */; };
+		373306F91DEBB06500365C9A /* NSMutableArray+QueueAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 373306DA1DEBB06500365C9A /* NSMutableArray+QueueAdditions.m */; };
+		373306FA1DEBB06500365C9A /* CordovaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 373306DD1DEBB06500365C9A /* CordovaViewController.m */; };
+		373306FB1DEBB06500365C9A /* HaleyPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 373306DF1DEBB06500365C9A /* HaleyPlugin.m */; };
+		373306FC1DEBB06500365C9A /* HLAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 373306E11DEBB06500365C9A /* HLAudioPlayer.m */; };
+		B95413251D9BB9B600600D09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B95413241D9BB9B600600D09 /* main.m */; };
+		B95413281D9BB9B600600D09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B95413271D9BB9B600600D09 /* AppDelegate.m */; };
+		B954132B1D9BB9B600600D09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B954132A1D9BB9B600600D09 /* ViewController.m */; };
+		B954132E1D9BB9B600600D09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B954132C1D9BB9B600600D09 /* Main.storyboard */; };
+		B95413301D9BB9B600600D09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B954132F1D9BB9B600600D09 /* Assets.xcassets */; };
+		B95413331D9BB9B600600D09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B95413311D9BB9B600600D09 /* LaunchScreen.storyboard */; };
+		B95413A01D9CA86400600D09 /* shake_sound_male.wav in Resources */ = {isa = PBXBuildFile; fileRef = B954139E1D9CA86400600D09 /* shake_sound_male.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3733069C1DEBB06400365C9A /* config.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
+		3733069E1DEBB06400365C9A /* HTMICDVDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMICDVDebug.h; sourceTree = "<group>"; };
+		3733069F1DEBB06400365C9A /* HTMICDVJSON_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMICDVJSON_private.h; sourceTree = "<group>"; };
+		373306A01DEBB06400365C9A /* HTMICDVJSON_private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMICDVJSON_private.m; sourceTree = "<group>"; };
+		373306A11DEBB06400365C9A /* HTMICDVPlugin+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HTMICDVPlugin+Private.h"; sourceTree = "<group>"; };
+		373306A41DEBB06400365C9A /* HTMICDVGestureHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMICDVGestureHandler.h; sourceTree = "<group>"; };
+		373306A51DEBB06400365C9A /* HTMICDVGestureHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMICDVGestureHandler.m; sourceTree = "<group>"; };
+		373306A71DEBB06400365C9A /* HTMICDVHandleOpenURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMICDVHandleOpenURL.h; sourceTree = "<group>"; };
+		373306A81DEBB06400365C9A /* HTMICDVHandleOpenURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMICDVHandleOpenURL.m; sourceTree = "<group>"; };
+		373306AA1DEBB06400365C9A /* HTMICDVIntentAndNavigationFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMICDVIntentAndNavigationFilter.h; sourceTree = "<group>"; };
+		373306AB1DEBB06400365C9A /* HTMICDVIntentAndNavigationFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMICDVIntentAndNavigationFilter.m; sourceTree = "<group>"; };
+		373306AD1DEBB06400365C9A /* HTMICDVLocalStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMICDVLocalStorage.h; sourceTree = "<group>"; };
+		373306AE1DEBB06400365C9A /* HTMICDVLocalStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMICDVLocalStorage.m; sourceTree = "<group>"; };
+		373306B01DEBB06400365C9A /* HTMICDVUIWebViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMICDVUIWebViewDelegate.h; sourceTree = "<group>"; };
+		373306B11DEBB06400365C9A /* HTMICDVUIWebViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMICDVUIWebViewDelegate.m; sourceTree = "<group>"; };
+		373306B21DEBB06400365C9A /* HTMICDVUIWebViewEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMICDVUIWebViewEngine.h; sourceTree = "<group>"; };
+		373306B31DEBB06400365C9A /* HTMICDVUIWebViewEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMICDVUIWebViewEngine.m; sourceTree = "<group>"; };
+		373306B41DEBB06400365C9A /* HTMICDVUIWebViewNavigationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMICDVUIWebViewNavigationDelegate.h; sourceTree = "<group>"; };
+		373306B51DEBB06400365C9A /* HTMICDVUIWebViewNavigationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMICDVUIWebViewNavigationDelegate.m; sourceTree = "<group>"; };
+		373306B71DEBB06400365C9A /* HTMICDVAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMICDVAppDelegate.h; sourceTree = "<group>"; };
+		373306B81DEBB06400365C9A /* HTMICDVAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMICDVAppDelegate.m; sourceTree = "<group>"; };
+		373306B91DEBB06400365C9A /* HTMICDVAvailability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMICDVAvailability.h; sourceTree = "<group>"; };
+		373306BA1DEBB06400365C9A /* HTMICDVAvailabilityDeprecated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMICDVAvailabilityDeprecated.h; sourceTree = "<group>"; };
+		373306BB1DEBB06400365C9A /* HTMICDV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMICDV.h; sourceTree = "<group>"; };
+		373306BC1DEBB06400365C9A /* HTMICDVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMICDVViewController.h; sourceTree = "<group>"; };
+		373306BD1DEBB06400365C9A /* HTMICDVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMICDVViewController.m; sourceTree = "<group>"; };
+		373306BE1DEBB06400365C9A /* HTMICDVCommandDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMICDVCommandDelegate.h; sourceTree = "<group>"; };
+		373306BF1DEBB06400365C9A /* HTMICDVCommandDelegateImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMICDVCommandDelegateImpl.h; sourceTree = "<group>"; };
+		373306C01DEBB06400365C9A /* HTMICDVCommandDelegateImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMICDVCommandDelegateImpl.m; sourceTree = "<group>"; };
+		373306C11DEBB06400365C9A /* HTMICDVCommandQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMICDVCommandQueue.h; sourceTree = "<group>"; };
+		373306C21DEBB06400365C9A /* HTMICDVCommandQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMICDVCommandQueue.m; sourceTree = "<group>"; };
+		373306C31DEBB06400365C9A /* HTMICDVConfigParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMICDVConfigParser.h; sourceTree = "<group>"; };
+		373306C41DEBB06400365C9A /* HTMICDVConfigParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMICDVConfigParser.m; sourceTree = "<group>"; };
+		373306C51DEBB06400365C9A /* HTMICDVInvokedUrlCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMICDVInvokedUrlCommand.h; sourceTree = "<group>"; };
+		373306C61DEBB06400365C9A /* HTMICDVInvokedUrlCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMICDVInvokedUrlCommand.m; sourceTree = "<group>"; };
+		373306C71DEBB06400365C9A /* HTMICDVPlugin+Resources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HTMICDVPlugin+Resources.h"; sourceTree = "<group>"; };
+		373306C81DEBB06400365C9A /* HTMICDVPlugin+Resources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "HTMICDVPlugin+Resources.m"; sourceTree = "<group>"; };
+		373306C91DEBB06500365C9A /* HTMICDVPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMICDVPlugin.h; sourceTree = "<group>"; };
+		373306CA1DEBB06500365C9A /* HTMICDVPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMICDVPlugin.m; sourceTree = "<group>"; };
+		373306CB1DEBB06500365C9A /* HTMICDVPluginResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMICDVPluginResult.h; sourceTree = "<group>"; };
+		373306CC1DEBB06500365C9A /* HTMICDVPluginResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMICDVPluginResult.m; sourceTree = "<group>"; };
+		373306CD1DEBB06500365C9A /* HTMICDVScreenOrientationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMICDVScreenOrientationDelegate.h; sourceTree = "<group>"; };
+		373306CE1DEBB06500365C9A /* HTMICDVTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMICDVTimer.h; sourceTree = "<group>"; };
+		373306CF1DEBB06500365C9A /* HTMICDVTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMICDVTimer.m; sourceTree = "<group>"; };
+		373306D01DEBB06500365C9A /* HTMICDVURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMICDVURLProtocol.h; sourceTree = "<group>"; };
+		373306D11DEBB06500365C9A /* HTMICDVURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMICDVURLProtocol.m; sourceTree = "<group>"; };
+		373306D21DEBB06500365C9A /* HTMICDVUserAgentUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMICDVUserAgentUtil.h; sourceTree = "<group>"; };
+		373306D31DEBB06500365C9A /* HTMICDVUserAgentUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMICDVUserAgentUtil.m; sourceTree = "<group>"; };
+		373306D41DEBB06500365C9A /* HTMICDVWebViewEngineProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMICDVWebViewEngineProtocol.h; sourceTree = "<group>"; };
+		373306D51DEBB06500365C9A /* HTMICDVWhitelist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMICDVWhitelist.h; sourceTree = "<group>"; };
+		373306D61DEBB06500365C9A /* HTMICDVWhitelist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMICDVWhitelist.m; sourceTree = "<group>"; };
+		373306D71DEBB06500365C9A /* NSDictionary+CordovaPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CordovaPreferences.h"; sourceTree = "<group>"; };
+		373306D81DEBB06500365C9A /* NSDictionary+CordovaPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CordovaPreferences.m"; sourceTree = "<group>"; };
+		373306D91DEBB06500365C9A /* NSMutableArray+QueueAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+QueueAdditions.h"; sourceTree = "<group>"; };
+		373306DA1DEBB06500365C9A /* NSMutableArray+QueueAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+QueueAdditions.m"; sourceTree = "<group>"; };
+		373306DC1DEBB06500365C9A /* CordovaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CordovaViewController.h; sourceTree = "<group>"; };
+		373306DD1DEBB06500365C9A /* CordovaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CordovaViewController.m; sourceTree = "<group>"; };
+		373306DE1DEBB06500365C9A /* HaleyPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HaleyPlugin.h; sourceTree = "<group>"; };
+		373306DF1DEBB06500365C9A /* HaleyPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HaleyPlugin.m; sourceTree = "<group>"; };
+		373306E01DEBB06500365C9A /* HLAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLAudioPlayer.h; sourceTree = "<group>"; };
+		373306E11DEBB06500365C9A /* HLAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLAudioPlayer.m; sourceTree = "<group>"; };
+		B95413201D9BB9B600600D09 /* JS_OC_Cordova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JS_OC_Cordova.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95413241D9BB9B600600D09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B95413261D9BB9B600600D09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B95413271D9BB9B600600D09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B95413291D9BB9B600600D09 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B954132A1D9BB9B600600D09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B954132D1D9BB9B600600D09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B954132F1D9BB9B600600D09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B95413321D9BB9B600600D09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B95413341D9BB9B600600D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95413901D9BBCC100600D09 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		B954139E1D9CA86400600D09 /* shake_sound_male.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shake_sound_male.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B954131D1D9BB9B600600D09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3733069B1DEBB06400365C9A /* CordovaLib */ = {
+			isa = PBXGroup;
+			children = (
+				3733069C1DEBB06400365C9A /* config.xml */,
+				3733069D1DEBB06400365C9A /* Private */,
+				373306B61DEBB06400365C9A /* Public */,
+			);
+			path = CordovaLib;
+			sourceTree = "<group>";
+		};
+		3733069D1DEBB06400365C9A /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				3733069E1DEBB06400365C9A /* HTMICDVDebug.h */,
+				3733069F1DEBB06400365C9A /* HTMICDVJSON_private.h */,
+				373306A01DEBB06400365C9A /* HTMICDVJSON_private.m */,
+				373306A11DEBB06400365C9A /* HTMICDVPlugin+Private.h */,
+				373306A21DEBB06400365C9A /* Plugins */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		373306A21DEBB06400365C9A /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				373306A31DEBB06400365C9A /* CDVGestureHandler */,
+				373306A61DEBB06400365C9A /* CDVHandleOpenURL */,
+				373306A91DEBB06400365C9A /* CDVIntentAndNavigationFilter */,
+				373306AC1DEBB06400365C9A /* CDVLocalStorage */,
+				373306AF1DEBB06400365C9A /* CDVUIWebViewEngine */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
+		373306A31DEBB06400365C9A /* CDVGestureHandler */ = {
+			isa = PBXGroup;
+			children = (
+				373306A41DEBB06400365C9A /* HTMICDVGestureHandler.h */,
+				373306A51DEBB06400365C9A /* HTMICDVGestureHandler.m */,
+			);
+			path = CDVGestureHandler;
+			sourceTree = "<group>";
+		};
+		373306A61DEBB06400365C9A /* CDVHandleOpenURL */ = {
+			isa = PBXGroup;
+			children = (
+				373306A71DEBB06400365C9A /* HTMICDVHandleOpenURL.h */,
+				373306A81DEBB06400365C9A /* HTMICDVHandleOpenURL.m */,
+			);
+			path = CDVHandleOpenURL;
+			sourceTree = "<group>";
+		};
+		373306A91DEBB06400365C9A /* CDVIntentAndNavigationFilter */ = {
+			isa = PBXGroup;
+			children = (
+				373306AA1DEBB06400365C9A /* HTMICDVIntentAndNavigationFilter.h */,
+				373306AB1DEBB06400365C9A /* HTMICDVIntentAndNavigationFilter.m */,
+			);
+			path = CDVIntentAndNavigationFilter;
+			sourceTree = "<group>";
+		};
+		373306AC1DEBB06400365C9A /* CDVLocalStorage */ = {
+			isa = PBXGroup;
+			children = (
+				373306AD1DEBB06400365C9A /* HTMICDVLocalStorage.h */,
+				373306AE1DEBB06400365C9A /* HTMICDVLocalStorage.m */,
+			);
+			path = CDVLocalStorage;
+			sourceTree = "<group>";
+		};
+		373306AF1DEBB06400365C9A /* CDVUIWebViewEngine */ = {
+			isa = PBXGroup;
+			children = (
+				373306B01DEBB06400365C9A /* HTMICDVUIWebViewDelegate.h */,
+				373306B11DEBB06400365C9A /* HTMICDVUIWebViewDelegate.m */,
+				373306B21DEBB06400365C9A /* HTMICDVUIWebViewEngine.h */,
+				373306B31DEBB06400365C9A /* HTMICDVUIWebViewEngine.m */,
+				373306B41DEBB06400365C9A /* HTMICDVUIWebViewNavigationDelegate.h */,
+				373306B51DEBB06400365C9A /* HTMICDVUIWebViewNavigationDelegate.m */,
+			);
+			path = CDVUIWebViewEngine;
+			sourceTree = "<group>";
+		};
+		373306B61DEBB06400365C9A /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				373306B71DEBB06400365C9A /* HTMICDVAppDelegate.h */,
+				373306B81DEBB06400365C9A /* HTMICDVAppDelegate.m */,
+				373306B91DEBB06400365C9A /* HTMICDVAvailability.h */,
+				373306BA1DEBB06400365C9A /* HTMICDVAvailabilityDeprecated.h */,
+				373306BB1DEBB06400365C9A /* HTMICDV.h */,
+				373306BC1DEBB06400365C9A /* HTMICDVViewController.h */,
+				373306BD1DEBB06400365C9A /* HTMICDVViewController.m */,
+				373306BE1DEBB06400365C9A /* HTMICDVCommandDelegate.h */,
+				373306BF1DEBB06400365C9A /* HTMICDVCommandDelegateImpl.h */,
+				373306C01DEBB06400365C9A /* HTMICDVCommandDelegateImpl.m */,
+				373306C11DEBB06400365C9A /* HTMICDVCommandQueue.h */,
+				373306C21DEBB06400365C9A /* HTMICDVCommandQueue.m */,
+				373306C31DEBB06400365C9A /* HTMICDVConfigParser.h */,
+				373306C41DEBB06400365C9A /* HTMICDVConfigParser.m */,
+				373306C51DEBB06400365C9A /* HTMICDVInvokedUrlCommand.h */,
+				373306C61DEBB06400365C9A /* HTMICDVInvokedUrlCommand.m */,
+				373306C71DEBB06400365C9A /* HTMICDVPlugin+Resources.h */,
+				373306C81DEBB06400365C9A /* HTMICDVPlugin+Resources.m */,
+				373306C91DEBB06500365C9A /* HTMICDVPlugin.h */,
+				373306CA1DEBB06500365C9A /* HTMICDVPlugin.m */,
+				373306CB1DEBB06500365C9A /* HTMICDVPluginResult.h */,
+				373306CC1DEBB06500365C9A /* HTMICDVPluginResult.m */,
+				373306CD1DEBB06500365C9A /* HTMICDVScreenOrientationDelegate.h */,
+				373306CE1DEBB06500365C9A /* HTMICDVTimer.h */,
+				373306CF1DEBB06500365C9A /* HTMICDVTimer.m */,
+				373306D01DEBB06500365C9A /* HTMICDVURLProtocol.h */,
+				373306D11DEBB06500365C9A /* HTMICDVURLProtocol.m */,
+				373306D21DEBB06500365C9A /* HTMICDVUserAgentUtil.h */,
+				373306D31DEBB06500365C9A /* HTMICDVUserAgentUtil.m */,
+				373306D41DEBB06500365C9A /* HTMICDVWebViewEngineProtocol.h */,
+				373306D51DEBB06500365C9A /* HTMICDVWhitelist.h */,
+				373306D61DEBB06500365C9A /* HTMICDVWhitelist.m */,
+				373306D71DEBB06500365C9A /* NSDictionary+CordovaPreferences.h */,
+				373306D81DEBB06500365C9A /* NSDictionary+CordovaPreferences.m */,
+				373306D91DEBB06500365C9A /* NSMutableArray+QueueAdditions.h */,
+				373306DA1DEBB06500365C9A /* NSMutableArray+QueueAdditions.m */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		373306DB1DEBB06500365C9A /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				373306DC1DEBB06500365C9A /* CordovaViewController.h */,
+				373306DD1DEBB06500365C9A /* CordovaViewController.m */,
+				373306DE1DEBB06500365C9A /* HaleyPlugin.h */,
+				373306DF1DEBB06500365C9A /* HaleyPlugin.m */,
+				373306E01DEBB06500365C9A /* HLAudioPlayer.h */,
+				373306E11DEBB06500365C9A /* HLAudioPlayer.m */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
+		B95413171D9BB9B600600D09 = {
+			isa = PBXGroup;
+			children = (
+				B95413221D9BB9B600600D09 /* JS_OC_Cordova */,
+				B95413211D9BB9B600600D09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B95413211D9BB9B600600D09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B95413201D9BB9B600600D09 /* JS_OC_Cordova.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B95413221D9BB9B600600D09 /* JS_OC_Cordova */ = {
+			isa = PBXGroup;
+			children = (
+				3733069B1DEBB06400365C9A /* CordovaLib */,
+				373306DB1DEBB06500365C9A /* Plugins */,
+				B95413261D9BB9B600600D09 /* AppDelegate.h */,
+				B95413271D9BB9B600600D09 /* AppDelegate.m */,
+				B95413291D9BB9B600600D09 /* ViewController.h */,
+				B954132A1D9BB9B600600D09 /* ViewController.m */,
+				B954139E1D9CA86400600D09 /* shake_sound_male.wav */,
+				B95413231D9BB9B600600D09 /* Supporting Files */,
+			);
+			path = JS_OC_Cordova;
+			sourceTree = "<group>";
+		};
+		B95413231D9BB9B600600D09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B954132C1D9BB9B600600D09 /* Main.storyboard */,
+				B954132F1D9BB9B600600D09 /* Assets.xcassets */,
+				B95413311D9BB9B600600D09 /* LaunchScreen.storyboard */,
+				B95413341D9BB9B600600D09 /* Info.plist */,
+				B95413241D9BB9B600600D09 /* main.m */,
+				B95413901D9BBCC100600D09 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B954131F1D9BB9B600600D09 /* JS_OC_Cordova */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B95413371D9BB9B600600D09 /* Build configuration list for PBXNativeTarget "JS_OC_Cordova" */;
+			buildPhases = (
+				B954131C1D9BB9B600600D09 /* Sources */,
+				B954131D1D9BB9B600600D09 /* Frameworks */,
+				B954131E1D9BB9B600600D09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JS_OC_Cordova;
+			productName = JS_OC_Cordova;
+			productReference = B95413201D9BB9B600600D09 /* JS_OC_Cordova.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B95413181D9BB9B600600D09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Haley;
+				TargetAttributes = {
+					B954131F1D9BB9B600600D09 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 456T9KL6YP;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B954131B1D9BB9B600600D09 /* Build configuration list for PBXProject "JS_OC_Cordova" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B95413171D9BB9B600600D09;
+			productRefGroup = B95413211D9BB9B600600D09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B954131F1D9BB9B600600D09 /* JS_OC_Cordova */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B954131E1D9BB9B600600D09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95413331D9BB9B600600D09 /* LaunchScreen.storyboard in Resources */,
+				B95413301D9BB9B600600D09 /* Assets.xcassets in Resources */,
+				B954132E1D9BB9B600600D09 /* Main.storyboard in Resources */,
+				373306E21DEBB06500365C9A /* config.xml in Resources */,
+				B95413A01D9CA86400600D09 /* shake_sound_male.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B954131C1D9BB9B600600D09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373306F41DEBB06500365C9A /* HTMICDVTimer.m in Sources */,
+				B954132B1D9BB9B600600D09 /* ViewController.m in Sources */,
+				373306E51DEBB06500365C9A /* HTMICDVHandleOpenURL.m in Sources */,
+				373306FC1DEBB06500365C9A /* HLAudioPlayer.m in Sources */,
+				373306F51DEBB06500365C9A /* HTMICDVURLProtocol.m in Sources */,
+				373306EE1DEBB06500365C9A /* HTMICDVCommandQueue.m in Sources */,
+				373306ED1DEBB06500365C9A /* HTMICDVCommandDelegateImpl.m in Sources */,
+				373306F11DEBB06500365C9A /* HTMICDVPlugin+Resources.m in Sources */,
+				373306F61DEBB06500365C9A /* HTMICDVUserAgentUtil.m in Sources */,
+				373306E61DEBB06500365C9A /* HTMICDVIntentAndNavigationFilter.m in Sources */,
+				373306E41DEBB06500365C9A /* HTMICDVGestureHandler.m in Sources */,
+				373306EA1DEBB06500365C9A /* HTMICDVUIWebViewNavigationDelegate.m in Sources */,
+				373306F01DEBB06500365C9A /* HTMICDVInvokedUrlCommand.m in Sources */,
+				373306F71DEBB06500365C9A /* HTMICDVWhitelist.m in Sources */,
+				373306EB1DEBB06500365C9A /* HTMICDVAppDelegate.m in Sources */,
+				373306E71DEBB06500365C9A /* HTMICDVLocalStorage.m in Sources */,
+				373306FB1DEBB06500365C9A /* HaleyPlugin.m in Sources */,
+				373306EC1DEBB06500365C9A /* HTMICDVViewController.m in Sources */,
+				373306F21DEBB06500365C9A /* HTMICDVPlugin.m in Sources */,
+				B95413281D9BB9B600600D09 /* AppDelegate.m in Sources */,
+				373306F81DEBB06500365C9A /* NSDictionary+CordovaPreferences.m in Sources */,
+				B95413251D9BB9B600600D09 /* main.m in Sources */,
+				373306F31DEBB06500365C9A /* HTMICDVPluginResult.m in Sources */,
+				373306FA1DEBB06500365C9A /* CordovaViewController.m in Sources */,
+				373306EF1DEBB06500365C9A /* HTMICDVConfigParser.m in Sources */,
+				373306E81DEBB06500365C9A /* HTMICDVUIWebViewDelegate.m in Sources */,
+				373306E31DEBB06500365C9A /* HTMICDVJSON_private.m in Sources */,
+				373306E91DEBB06500365C9A /* HTMICDVUIWebViewEngine.m in Sources */,
+				373306F91DEBB06500365C9A /* NSMutableArray+QueueAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B954132C1D9BB9B600600D09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B954132D1D9BB9B600600D09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B95413311D9BB9B600600D09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B95413321D9BB9B600600D09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B95413351D9BB9B600600D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B95413361D9BB9B600600D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B95413381D9BB9B600600D09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 456T9KL6YP;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JS_OC_Cordova/PrefixHeader.pch;
+				INFOPLIST_FILE = JS_OC_Cordova/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haley.JS-OC-Cordova";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B95413391D9BB9B600600D09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 456T9KL6YP;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JS_OC_Cordova/PrefixHeader.pch;
+				INFOPLIST_FILE = JS_OC_Cordova/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haley.JS-OC-Cordova";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B954131B1D9BB9B600600D09 /* Build configuration list for PBXProject "JS_OC_Cordova" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95413351D9BB9B600600D09 /* Debug */,
+				B95413361D9BB9B600600D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B95413371D9BB9B600600D09 /* Build configuration list for PBXNativeTarget "JS_OC_Cordova" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95413381D9BB9B600600D09 /* Debug */,
+				B95413391D9BB9B600600D09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B95413181D9BB9B600600D09 /* Project object */;
+}
